@@ -1,0 +1,71 @@
+body {
+  background-color: #2f303a;
+  color: white;
+}
+.login {
+  color: black;
+}
+.productinfo {
+  padding: 50px 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+.img-img {
+  width: 400px;
+  height: auto;
+}
+.but {
+  background-color: #ffbe00;
+  align-items: center;
+  text-align: center;
+  float: center;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  width: 150px;
+  font-family: "Abhaya Libre";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Abhaya Libre";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 116%;
+}
+.extra {
+  color: #ffbe00;
+}
+.color {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.color1 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(250, 246, 246);
+}
+.color2 {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+}
+.color3 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(7, 7, 7);
+}
+.color4 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(65, 66, 65);
+}

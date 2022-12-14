@@ -8,39 +8,238 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container">
       <div class="header">
-        <div class="logo">
-          ECOM
+        <div class="logo"><a href="#container">ECOM</a></div>
+        <div class="top-nav">
+          <nav class="sectionNav">
+            <a href="#products">Ladies</a>
+            <a href="#products">Gentlemen</a>
+            <a href="#products">Children</a>
+          </nav>
+          <nav class="logNav">
+            <ul>
+              <li class="login">Login</li>
+              <li>
+                <a href="cart.html">
+                  <img
+                    class="cart"
+                    src="images/cart.png"
+                    height="40px"
+                    width="40px"
+                    alt="cart"
+                /></a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class = "top-nav">
-          <nav class="sectionNav >
-          <a class="nav-link" href="#">Ladies</a>
-          <a class="nav-link" href="#">Gentlemen</a>
-          <a class="nav-link" href="#">Children</a>
-        </nav>
-        <nav class="logNav">
-          <ul>
-            <li class="login">Login</li>
-            <img class="cart" src = "https://cdn-icons-png.flaticon.com/512/263/263142.png" height="40px" width="40px" alt="cart"/>
-          </ul>
-        </nav>
+        <div class="nav">
+          <nav class="mainNav">
+            <ul>
+              <li><a href="#products">Clothing</a></li>
+              <li><a href="#products">Shoes</a></li>
+              <li><a href="#products">Sports</a></li>
+              <li><a href="#products">GiftCards</a></li>
+              <li class="sale"><a href="#products">Sale</a></li>
+            </ul>
+          </nav>
+          <form class="nosubmit">
+            <input
+              class="nosubmit"
+              type="search"
+              placeholder="Search for products ..."
+            />
+          </form>
+        </div>
       </div>
-      <div class="nav">
-        <nav class="mainNav">
-          <ul>
-            <li>Clothing</li>
-            <li>Shoes</li>
-            <li>Sports</li>
-            <li>Gift Cards</li>
-            <li class = "sale">Sale</li>
-          </ul>
-        </nav>
-        <form class="nosubmit">
-          <input class="nosubmit" type="search" placeholder="Search...">
-        </form>
+      <div>
+        <img
+          class="img"
+          src="images/BannerImg.jpg"
+          width="100%"
+          height="auto"
+          alt="banner image"
+        />
       </div>
+      <div class="main">
+        <div id="subMenu">
+          <h3>Ladies / Shoes</h3>
+          <select name="arrangeby" id="arrangeby">
+            <option value="arrange by">Arrange by</option>
+            <option value="lowest price">lowest price</option>
+            <option value="highest price">highest price</option>
+            <option value="most discount">most discount</option>
+            <option value="latest">latest</option>
+          </select>
+        </div>
+        <div id="products">
+          <div id="subMenu2">
+            <ul>
+              <li>
+                <a href="#"><strong>Filter</strong></a>
+                <a href="#">size</a>
+                <a href="#">User</a>
+                <a href="#">Trademark</a>
+                <a href="#">Price</a>
+                <a href="#">Color</a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div id="item-list">
+            <div id="row-1">
+            <div><a href = "/productinfo.html">
+                <img
+                  id="img-shoes"
+                  src="https://img01.ztat.net/article/spp-media-p1/22515b6209964029b7c2e7edc71b1cc1/cdfebb1fbd86474d9ca51dff3b7c0ccc.jpg?imwidth=156&filter=packshot"
+                />
+                <div id="box">
+                  <p>Next</p>
+                  <p>Winter boots</p>
+                  <p>€99.99</p></a>
+                </div>
+              </div>
+              <div><a href = "/productinfo.html">
+                <img
+                  id="img-shoes"
+                  src="https://img01.ztat.net/article/spp-media-p1/b792d783fad046f1b587efe15d2c3bce/f968270a7df2428b9a69b595ae870f40.jpg?imwidth=156&filter=packshot"
+                />
+                <div id="box">
+                  <p>ONLY SHOES</p>
+                  <p>Winter boots</p>
+                  <p id="discount">48,95 €</p>
+                  <p>
+                    Originally: 69,95 €
+
+                    <span id="discount">-30%</span>
+                  </p></a>
+                </div>
+              </div>
+              <div> <a href = "/productinfo.html">
+                <img
+                  id="img-shoes"
+                  src="https://img01.ztat.net/article/spp-media-p1/687991eeb3f24a768a8b2faa9042e4e7/b2d92c8545764f868055e4d8b4820e77.jpg?imwidth=156&filter=packshot"
+                />
+                <div id="box">
+                  <p>Even&Odd Wide Fit</p>
+                  <p>Winter boots</p>
+                  <p id="discount">39,95 €</p>
+                  <p>
+                    Originally: 49,95 €
+
+                    <span id="discount">-24%</span>
+                  </p></a>
+                </div>
+              </div>
+              <div> <a href = "/productinfo.html">
+                <img
+                  id="img-shoes"
+                  src="https://img01.ztat.net/article/spp-media-p1/ecf2f5ea6a1743368829b9c21eaf6846/ba9363f5d43d4abca93fb73c49505981.jpg?imwidth=156&filter=packshot"
+                />
+                <div id="box">
+                  <p>Anna Field</p>
+                  <p>Winter boots</p>
+                  <p>29,95</p> </a>
+                </div>
+              </div>
+              <div><a href = "/productinfo.html">
+                <img
+                  id="img-shoes"
+                  src="https://img01.ztat.net/article/spp-media-p1/85a0de92c1b947878d7d9668917609da/b6f2a72cd26c4503bb62ee611a21a4e0.jpg?imwidth=156&filter=packshot"
+                />
+                <div id="box">
+                  <p>Even&Odd</p>
+                  <p>SNOW BOOT - Platform</p>
+                  <p id="discount">24,55 €</p>
+                  <p> Originally: 34,95 €
+                    <span id="discount">-30%</span>
+                  </p></a>
+                </div>
+              </div>
+            </div>
+          
+
+            <div id="row-2">
+              <div><a href = "/productinfo.html">
+                <img
+                  id="img-shoes"
+                  src="https://img01.ztat.net/article/spp-media-p1/ecf2f5ea6a1743368829b9c21eaf6846/ba9363f5d43d4abca93fb73c49505981.jpg?imwidth=156&filter=packshot"
+                />
+                <div id="box">
+                  <p>Anna Field</p>
+                  <p>Winter boots</p>
+                  <p>29,95</p></a>
+                </div>
+              </div>
+              <div><a href = "/productinfo.html">
+                <img
+                  id="img-shoes"
+                  src="https://img01.ztat.net/article/spp-media-p1/6f649e74838f4919ae4f333008fb19d0/7a6df18a920b4bb28b34ab823890d738.jpg?imwidth=156&filter=packshot"
+                />
+                <div id="box">
+                  <p>Even&Odd Wide Fit</p>
+                  <p>Winter boots</p>
+                  <p id="discount">39,95 €</p>
+                  <p>
+                    Originally: 49,95 €
+
+                    <span id="discount">-24%</span>
+                  </p></a>
+                </div>
+              </div>
+              <div><a href = "/productinfo.html">
+                <img
+                  id="img-shoes"
+                  src="https://img01.ztat.net/article/spp-media-p1/51e7a60d21b830428546e26569dbb2e0/486762592882474db59a04aa0bb7f5d3.jpg?imwidth=156"
+                />
+                <div id="box">
+                  <p>Tamaris</p>
+                  <p>Winter boots</p>
+                  <p>€99.99</p></a>
+                </div>
+              </div>
+              <div><a href = "/productinfo.html">
+                <img
+                  id="img-shoes"
+                  src="https://img01.ztat.net/article/spp-media-p1/002f0aaa904f4f8f832d40595cff5565/9eafd12148c54bafb65b50f62d479497.jpg?imwidth=156&filter=packshot"
+                />
+                <div id="box">
+                  <p>ONLY SHOES</p>
+                  <p>Winter boots</p>
+                  <p id="discount">48,95 €</p>
+                  <p>
+                    Originally: 69,95 €
+
+                    <span id="discount">-30%</span>
+                  </p></a>
+                </div>
+              </div>
+
+              <div><a href = "/productinfo.html">
+                <img
+                  id="img-shoes"
+                  src="https://img01.ztat.net/article/spp-media-p1/582b4946e63f466e805510a1273b545a/d0b76d7ea0774f638c251aeb6728095d.jpg?imwidth=156&filter=packshot"
+                />
+                
+                <div id="box">
+                  <p>Even&Odd</p>
+                  <p>SNOW BOOT - Platform</p>
+                  <p id="discount">24,55 €</p>
+                  <p>
+                    Originally: 34,95 €
+
+                    <span id="discount">-30%</span>
+                  </p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <footer>
+        <p class="footer">@2022 ECOM</p>
+      </footer>
     </div>
-        
   </body>
 </html>

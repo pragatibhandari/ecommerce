@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="cartStyle.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" id="cart">
+      <div class="header">
+        <div class="logo"><a href="index.html">ECOM</a></div>
+        <div class="top-nav">
+          <nav class="sectionNav">
+            <a href="#products">Ladies</a>
+            <a href="#products">Gentlemen</a>
+            <a href="#products">Children</a>
+          </nav>
+          <nav class="logNav">
+            <ul>
+              <li class="login">Login</li>
+              <li>
+                <a href="#products">
+                  <img
+                    class="cart"
+                    src="images/cart.png"
+                    height="40px"
+                    width="40px"
+                    alt="cart"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="nav">
+          <nav class="mainNav">
+            <ul>
+              <li><a href="/index.html">Clothing</a></li>
+              <li><a href="/index.html">Shoes</a></li>
+              <li><a href="/index.html">Sports</a></li>
+              <li><a href="#products">GiftCards</a></li>
+              <li class="sale"><a href="#products">Sale</a></li>
+            </ul>
+          </nav>
+          <form class="nosubmit">
+            <input
+              class="nosubmit"
+              type="search"
+              placeholder="Search for products ..."
+            />
+          </form>
+        </div>
+      </div>
+
+      <div class="cart">
+        <div class="row">
+          <h2 class="shoppingcart">Shopping cart</h2>
+          <a href="index.html">Back to Shopping</a>
+        </div>
+        <div class="row">
+          <div class="list">
+            <div class="row">
+              <img
+                id="img-shoes"
+                src="https://img01.ztat.net/article/spp-media-p1/b792d783fad046f1b587efe15d2c3bce/f968270a7df2428b9a69b595ae870f40.jpg?imwidth=156&filter=packshot"
+              />
+              <div id="desc">
+                <p>ONLY SHOES - Winter boots</p>
+                <p>Color: White</p>
+                <p>Size: 42/43</p>
+                <p id="discount">35,95€</p>
+              </div>
+
+              <div id="price">
+                <select name="num" id="num">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+                <p>€35,95</p>
+              </div>
+            </div>
+            <div class="row">
+              <img
+                id="img-shoes"
+                src="https://img01.ztat.net/article/spp-media-p1/7a5bf23ae932396bbdc8743e8365717e/b6e58cd3054b42068c27f09b89a33705.jpg?imwidth=156&filter=packshot"
+              />
+              <div id="desc">
+                <p>ONLY SHOES</p>
+                <p>Color: Brown</p>
+                <p>Size: 40/42</p>
+                <p id="discount">67.5€</p>
+              </div>
+
+              <div id="price">
+                <select name="num" id="num">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+                <p>€135.00</p>
+              </div>
+            </div>
+            <div class="row">
+              <img
+                id="img-shoes"
+                src="https://img01.ztat.net/article/spp-media-p1/38ea163b8dff4c75b00b73627d311ce9/11139affec5941dd8284de4bb22ecbbe.jpg?imwidth=156&filter=packshot"
+              />
+              <div id="desc">
+                <p>ONLY SHOES</p>
+                <p>Color: Khaki</p>
+                <p>Size: 38/39</p>
+                <p>183,95€</p>
+              </div>
+
+              <div id="price">
+                <select name="num" id="num">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+                <p>€183,99</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="box1">
+              <div class="row">
+                <p>Subtotal</p>
+                <p>€354.75</p>
+              </div>
+              <div class="row">
+                <p>Shipping Cost</p>
+                <p>€15.00</p>
+              </div>
+              <div class="row">
+                <p>Total amount(incl 24% vat)</p>
+                <p>€369.75</p>
+              </div>
+              <button id="paynow">Pay Now</button>
+            </div>
+
+            <div class="row">
+              <img src="images/bank.jpg" width="500" height="auto" />
+            </div>
+            <div class="row">
+              <p> Estimated Delivery Time 2-4 working days </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="footer">@2022 ECOM</p>
+    </footer>
+  </body>
+</html>
